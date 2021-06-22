@@ -8,9 +8,11 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
 
+    <link rel="stylesheet" href="style.css">
+
     <title>Hello, world!</title>
   </head>
-  <body>
+  <body style=" background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaPgqnj0l1Zg6MMOQKlnGHyM5p3voEBUryyA&usqp=CAU');">
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
           <a class="navbar-brand" href="#"><img src="./Img/dancaprincipal.jpg " width="60" alt=""></a>
@@ -20,7 +22,7 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item ">
-                <a class="nav-link active text-dark" aria-current="page" href="#">Home</a>
+                <a class="nav-link active text-dark" aria-current="page" href="index.html">Home</a>
               </li>
               <li class="nav-item ">
                 <a class="nav-link text-dark" href="#">Link</a>
@@ -42,13 +44,13 @@
 
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    PREENCHER
+                    Redes sociais
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#">PREENCHER</a></li>
-                  <li><a class="dropdown-item" href="#">PREENCHER</a></li>
+                  <li><a class="dropdown-item" href="https://www.instagram.com/jo_luid/?hl=pt-br" target="_blankS">Instagran</a></li>
+                  <li><a class="dropdown-item" href="https://www.facebook.com/jose.luiis.1217727/" target="_blankS">Facebook</a></li>
                   <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">PREENCHER</a></li>
+                  <li><a class="dropdown-item" href="https://www.linkedin.com/in/joseluiscorreia/" target="_blankS">Linkedin</a></li>
                 </ul>
               </li>
 
@@ -63,12 +65,93 @@
               </li>
             </ul>
             <form class="d-flex">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
+              <input class="form-control me-2 btn-outline-warning" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-warning" type="submit">Search</button>
             </form>
           </div>
         </div>
       </nav>
+
+      <br>
+      <br>
+      <br>
+
+
+      <section class="container">
+        <div class="row">
+          <div class="col-md-8">
+            <h1>A arte da danca</h1>
+            <h2>Dançar é deixar a alma livre para que escreva poesia com o corpo.</h2>
+            <p>
+              Dança é movimento, é a expressão do corpo a partir de um ritmo, que pode ser uma música, uma batida ou mesmo o pulsar do coração. É uma forma de se expressar, de se colocar em movimento. Dança pode ser feita desacompanhado ou em grupo, coreografada ou em estilo livre. Você pode dançar por lazer, por hobby, por profissão, por esporte, para relaxar, para extravasar... Enfim, como e por que você quiser. A dança pode, sim, ter regras e ser encarada como profissional, mas ela também pode ser livre se você a faz por lazer. Na sua vida, não se envergonhe ao dançar. Faça o movimento que o seu corpo está pedindo, afinal você quer se divertir
+            </p>
+          </div>
+          <div class="col-md-4">
+            <form>
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <div id="emailHelp" class="form-text">Informe seu email.</div>
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Password</label>
+                <input type="password" class="form-control" id="exampleInputPassword1">
+              </div>
+              <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Aceito receber emails desta instituição.</label>
+              </div>
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+          </div>
+        </div>
+      </section>
+
+
+
+      <section class="container">
+        <div class="row">
+          <div class="col-md-12">
+
+            <!-- style="width: 100; display: inline-block;" -->
+
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              </div>
+      
+              
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="./Img/tamanha1.jpg" class="d-block w-50" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="./Img/Tamanho.jpg" class="d-block w-50" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="./Img/TamplTamanho.jpg" class="d-block w-50" alt="...">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+
+
+
+
+          </div>
+        </div>
+
+
+      </section>
 
 
 
